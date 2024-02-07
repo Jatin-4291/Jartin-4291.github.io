@@ -1,0 +1,79 @@
+body {
+  background-color: #eba6b0;
+}
+
+.header {
+  text-align: center;
+  color: #f7ecd0;
+  font-weight: 300; /* Set font weight to make it thinner */
+  font-family: "Fasthand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 50%;
+}
+.header-2 {
+  text-align: center;
+  color: #f7ecd0;
+  font-weight: 300; /* Set font weight to make it thinner */
+  font-family: "Fasthand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 50%;
+}
+.container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.gif {
+  margin-top: 100px;
+  height: 11rem;
+  width: 18rem;
+  margin-bottom: 20px;
+  background-color: #f7ecd0;
+  border-radius: 16px;
+}
+.valentine-gif {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #f7ecd0;
+  border-radius: 16px;
+}
+.love-you {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #f7ecd0;
+  border-radius: 16px;
+}
+.buttons {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+.yes,
+.no {
+  /* size: 200px; */
+  background-color: #f2606c;
+  border-style: none;
+  border-radius: 16px;
+  width: 6rem;
+  height: 2rem;
+  display: inline-block;
+  margin: 20px;
+  font-weight: 300; /* Set font weight to make it thinner */
+  color: #f7ecd0;
+}
+.ballon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100px;
+}
+.hidden {
+  display: none;
+}
